@@ -1,0 +1,32 @@
+.Footer{
+
+    &-Container{
+
+        display: flex;
+        justify-content: center;
+
+        background-color: rgb(255, 251, 212);
+        padding: 30px;    
+    }
+
+
+    &-Item{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 300px;
+        justify-content: center;
+        align-content: center;
+
+    }
+
+    &-List{
+        list-style: none;
+        }
+    
+    &-Link{
+        text-decoration: none;
+        }
+
+}
+
+    

@@ -1,0 +1,66 @@
+.Section-Container{
+
+    background-color: rgb(227, 241, 252);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 700px;
+
+
+.Section-Background{
+
+    display: grid;
+    /* grid-template-columns: 1fr 1fr; */
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 620px;
+    justify-items: center;
+    background-color: 0;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Section{
+
+    margin-top: 60px;
+    background-color: white;
+    border-radius: 30px;
+
+
+    &-Article{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+
+    }
+
+    &-Picture{
+
+    }
+    
+    &-Title{
+        font-size: larger;
+        margin-top: 30px;   
+        margin-bottom: 20px;
+    }
+
+    &-Description{
+     width: 250px;
+     text-align: justify;
+    }
+
+    &-Button{
+        background-color: rgb(201, 245, 134);
+        color: black;
+        border: none;
+        width: 200px;
+        height: 60px;
+        margin-top: 25px;
+        border-radius: 5px;
+    }
+}
+
+
+}
